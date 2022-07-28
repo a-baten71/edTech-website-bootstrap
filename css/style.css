@@ -1,11 +1,13 @@
 /* Google font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+
 body{
     font-family: 'Poppins', sans-serif;
 }
 
 /* logo-color:#4A4A4A */
+
 
 .carousel-item img{
     height: 500px;
@@ -14,6 +16,9 @@ body{
     
 }
 
+.companies{
+    background-color: #F8F9F9;
+}
 
 
 .overlay{
@@ -25,11 +30,42 @@ body{
 }
 
 
+
 .join-container{
-    height: 200px;
+    height: 250px;
 }
 
+.btn, .join-container{
+    background-color: #289BDE;
+    color: white;
+}
 footer{
     height: 250px;
 }
+
+.social-icon a span{
+    transition: all .7s;
+}
+
+.social-icon a span:hover{
+    color: #289BDE;
+    background-color: white;
+}
+
+
+
+.modal-btn{
+    background-color: white;
+    color: #289BDE;
+}
+.card-text-price{
+    color:#289BDE
+}
+
+@media only screen and (max-width: 576px) {
+    .card-body {
+      padding: 20px 0;
+    }
+  }
+
 
