@@ -7,10 +7,22 @@ body{
 
 /* logo-color:#4A4A4A */
 
-img{
+.carousel-item img{
     height: 500px;
     object-fit: cover;
     object-position: top;
     
+}
+
+.overlay{
+    filter: brightness(50%);
+}
+
+.carousel-caption{
+    margin-bottom: 100px;
+}
+
+.join-container{
+    height: 200px;
 }
 
