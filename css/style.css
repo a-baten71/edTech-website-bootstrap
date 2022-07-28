@@ -14,6 +14,8 @@ body{
     
 }
 
+
+
 .overlay{
     filter: brightness(50%);
 }
@@ -21,6 +23,7 @@ body{
 .carousel-caption{
     margin-bottom: 100px;
 }
+
 
 .join-container{
     height: 200px;
